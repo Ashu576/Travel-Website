@@ -1,0 +1,129 @@
+*{ 
+    color: #ffffff;
+}
+
+h2{
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.navbar-brand{
+    font-size: 3rem;
+    padding: 2% 0%;
+    font-weight: bold;
+}
+
+.nav-link{
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #ffffff;
+    padding: 2%;
+}
+
+#heading {
+    background-color: transparent;
+    background-image: url("images/img1.jpg");
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 90vh; 
+    width: 100%; 
+    padding: 3% 15%;
+}
+
+#home{
+    padding: 15% 0%;
+}
+
+.card {
+    background-color:rgba(52, 76, 183, 0.41);
+    margin: 0% 2.7%;    
+    width: 19rem;
+    color: #ffffff;
+    transition: 0.3s ease-in-out;
+}
+
+.card img:hover{
+    border-radius: 3rem;
+    transform: scale(1.2)translateY(-10px);
+    box-shadow: 0 0 25px #ffffff;
+} 
+
+#about{
+    background-color: #001A6E;
+    padding: 20% 15% 10% 15%;
+}
+#services{
+    background-color: transparent;
+    background-image: url("images/img2.jpg");
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 70vh; 
+    width: 100%; 
+    padding: 4% 15%;
+}
+.serve-cont{
+    background-color:rgba(52, 76, 183, 0.62);
+    padding: 6% 3% 6% 3%;
+    border-radius: 20px;
+}
+
+.contact a{
+    font-size: 25px;
+    color: #ffffff;
+    border: 2px solid #ffffff;
+    width: 42px;
+    height: 42px;
+    line-height: 42px;
+    display: inline-block;
+    text-align: center;
+    border-radius: 50%;
+    margin: 0 10px;
+    transition: 0.3s ease-in-out;
+}
+
+.contact a:hover{
+    transform: scale(1.2)translateY(-10px);
+    background-color: #344CB7;
+    color: #000000;
+    box-shadow: 0 0 25px #ffffff; 
+}
+
+.contact, .footer{
+    background-color: #001A6E;
+    padding: 2%;
+    text-align: center
+}
+
+@media (max-width: 1028px){
+    *{
+      text-align: center;
+    }
+    .navbar{
+        padding: 1rem;
+    }
+    #home{
+        display: grid;
+        padding: 3rem 2rem;
+    }
+    .card{
+        width: 400px;
+        background-color: #001A6E;
+        margin: 0.5rem 0 0 0;
+    }
+    #about{
+        padding: 58rem 1rem 3rem 1rem;
+    }
+    #services{
+        padding: 5rem;
+    }
+    .contact{
+        padding: 3rem 0rem;
+    }
+    .footer{
+        padding: 0.5rem 2rem;
+    }
+  }
